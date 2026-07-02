@@ -2,11 +2,11 @@
 
 ### Hi, I'm Mojtaba.
 
-M.Sc. AI student at the [University of Genova](https://unige.it/). Currently working through LLMs, computer vision, and the gap from model to product. Before Italy, two years building Power BI dashboards as a Business Technology Analyst in Iran.
+M.Sc. AI student at the [University of Genova](https://unige.it/). Currently working through LLMs, computer vision, and the gap from model to product.
 
 I tend to think about a model in terms of the dashboard it has to show up on, not just the curve on a validation set.
 
-> Based in Genova, Italy &nbsp;·&nbsp; open to AI/ML internships and graduate roles in the EU starting 2026/2027 &nbsp;·&nbsp; visa sponsorship welcome.
+> Based in Genova, Italy &nbsp;·&nbsp; open to AI/ML internships and graduate roles in the EU starting 2026/2027 &nbsp;·&nbsp;
 
 ---
 
