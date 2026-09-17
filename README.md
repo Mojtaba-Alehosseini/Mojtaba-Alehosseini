@@ -35,7 +35,7 @@ A port-management game commanded in plain English. Ten JADE agents negotiate tug
 </td>
 <td width="50%" valign="top">
 
-**RAE-DiT: diffusion transformers on DINOv2 latents**<br>
+**[RAE-DiT: diffusion transformers on DINOv2 latents](https://github.com/Mojtaba-Alehosseini/diffusion-transformers-rae)**<br>
 Scaled reproduction of NYU's RAE-DiT on one P100: frozen DINOv2-B encoder, pretrained ViT-XL decoder, a 196M-parameter DiTDH-S trained with flow matching on cached 768×16×16 latents. Dimension-dependent noise schedule, classifier-free guidance, a paired held-out loss and a seeded schedule ablation scored by FID (111.99 unguided, 105.83 guided). 13-page report, every number traceable to a notebook cell.<br>
 <img src="https://img.shields.io/badge/PyTorch-18181B?style=flat-square"> <img src="https://img.shields.io/badge/diffusion-18181B?style=flat-square"> <img src="https://img.shields.io/badge/DINOv2-18181B?style=flat-square"> <img src="https://img.shields.io/badge/Deep%20Learning%20course-18181B?style=flat-square">
 
@@ -59,7 +59,7 @@ How life got expensive in Europe, 2019 to 2025. A scroll-driven data essay: nine
 </tr>
 </table>
 
-Also on GitHub: [nl-to-sql-genbi](https://github.com/Mojtaba-Alehosseini/nl-to-sql-genbi) (plain-English questions to read-only SQL, 60 tests), [demand-forecasting](https://github.com/Mojtaba-Alehosseini/demand-forecasting) (WAPE 17% against 44% naive), [onnx-inference-service](https://github.com/Mojtaba-Alehosseini/onnx-inference-service) (INT8 serving 2.6× faster than PyTorch), [cs-migration-compass](https://mojtaba-alehosseini.github.io/cs-migration-compass/) (73 cities compared on sourced data), and a geospatial U-Net that finds volcanic cones in elevation models (Computational Vision project, report on request).
+Also on GitHub: [scoria-cone-segmentation](https://github.com/Mojtaba-Alehosseini/scoria-cone-segmentation) (a U-Net that finds volcanic cones and crater rims in bare elevation models), [spark-global-trade-analytics](https://github.com/Mojtaba-Alehosseini/spark-global-trade-analytics) (PySpark over 8.2M UN trade records, RDD against DataFrame), [hpc-patterns](https://github.com/Mojtaba-Alehosseini/hpc-patterns) (six kernels, each in serial C, OpenMP, MPI and CUDA), [augmented-museum-ar](https://github.com/Mojtaba-Alehosseini/augmented-museum-ar) and [logos-turtle-ar](https://github.com/Mojtaba-Alehosseini/logos-turtle-ar) (Unity AR Foundation apps), [nl-to-sql-genbi](https://github.com/Mojtaba-Alehosseini/nl-to-sql-genbi) (plain-English questions to read-only SQL, 60 tests), [demand-forecasting](https://github.com/Mojtaba-Alehosseini/demand-forecasting) (WAPE 17% against 44% naive), [onnx-inference-service](https://github.com/Mojtaba-Alehosseini/onnx-inference-service) (INT8 serving 2.6× faster than PyTorch), [cs-migration-compass](https://mojtaba-alehosseini.github.io/cs-migration-compass/) (73 cities compared on sourced data).
 
 ## Stack
 
@@ -73,6 +73,6 @@ Claude Code is part of my daily toolchain, in English, for the projects above. S
 
 ## Find me
 
-The site has the CV, two interactive maps of these 61 repositories (a ring by field and language, and a radar you can spin) and a portrait you can crumple with your hand:
+The site has the CV, two interactive maps of these 67 repositories (a ring by field and language, and a radar you can spin) and a portrait you can crumple with your hand:
 
 **[mojtaba-alehosseini.github.io](https://mojtaba-alehosseini.github.io/)** · [LinkedIn](https://www.linkedin.com/in/mojtaba-alehosseini/) · alehoseini.mojtaba@gmail.com

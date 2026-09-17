@@ -1,0 +1,35 @@
+name: Sync profile
+
+on:
+  schedule:
+    # 30 minutes after the site sync, so the new repos-data.js is published.
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build banners and count
+        run: python scripts/build_banner.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "Mojtaba Alehosseini"
+          git config user.email "alehoseini.mojtaba@gmail.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Sync profile $(date -u +%Y-%m-%d)"
+          fi
+          git push
