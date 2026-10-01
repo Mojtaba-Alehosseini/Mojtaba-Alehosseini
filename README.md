@@ -73,6 +73,6 @@ Claude Code is part of my daily toolchain, in English, for the projects above. S
 
 ## Find me
 
-The site has the CV, two interactive maps of these 67 repositories (a ring by field and language, and a radar you can spin) and a portrait you can crumple with your hand:
+The site has the CV, two interactive maps of these 68 repositories (a ring by field and language, and a radar you can spin) and a portrait you can crumple with your hand:
 
 **[mojtaba-alehosseini.github.io](https://mojtaba-alehosseini.github.io/)** · [LinkedIn](https://www.linkedin.com/in/mojtaba-alehosseini/) · alehoseini.mojtaba@gmail.com
